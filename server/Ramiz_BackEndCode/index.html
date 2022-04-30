@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login or Sign up</title>
+    <link rel = "shortcut icon" href="/assets.favicon.ico">
+    <link rel="stylesheet" href = "./src/main.css">
+</head>
+
+<body>
+    <div class = "container">
+        <form class="form" id="login">
+            <h1 class="title"></h1>
+            <div class="message message_error"></div>
+            <div class="input_group">
+                <input type="text" class="input" autofocus placeholder="username">
+                <div class="input_error_message">error msg</div>
+            </div>
+            <div class="input_group">
+                <input type="password" class="input" autofocus placeholder="password">
+                <div class="input_error_message"></div>
+            </div>
+            <button class="button" type = "submit">continue</button>
+            <p class="text">
+                <a href="#" class="link">forgor??</a>
+            </p>
+            <p class="text">
+                <a class="link" id = "account_creation">create new account</a>
+            </p>
+        </form>
+        <form class="form" id="createNew">
+            <h1 class="title">create new account</h1>
+            <div class="message message_error"></div>
+            <div class="input_group">
+                <input type="text" class="input" autofocus placeholder="username__">
+                <div class="input_error_message">error msg</div>
+            </div>
+            <div class="input_group">
+                <input type="text" class="input" autofocus placeholder="Email">
+                <div class="input_error_message">error msg</div>
+            </div>
+            <div class="input_group">
+                <input type="password" class="input" autofocus placeholder="password">
+                <div class="input_error_message"></div>
+            </div>
+            <div class="input_group">
+                <input type="password" class="input" autofocus placeholder="new password">
+                <div class="input_error_message"></div>
+            </div>
+            <button class="button" type = "submit">continue</button>
+            <p class="text">
+                <a href="#" class="link">forgor??</a>
+            </p>
+            <p class="text">
+                <a class="link" id = "account_creation">not new? log in bozo</a>
+            </p>
+        </form>
+    </div>
+    <script> src = "./src/main.js"</script>
+</body>
